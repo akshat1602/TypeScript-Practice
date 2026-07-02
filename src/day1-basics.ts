@@ -39,3 +39,23 @@ let user: {name: string; age: number; isAdmin: boolean} = {
     isAdmin: false
 };
 console.log(user);
+
+
+//Interface
+interface User{
+    name: string;
+    id: number;
+}
+
+class UserAccount {
+    name: string;
+    id: number;
+
+    constructor(name: string, id: number){
+        this.name = name;
+        this.id = id;
+    }
+}
+
+const admin: User = new UserAccount("Akshat", 55);
+console.log(admin);

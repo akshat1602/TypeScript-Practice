@@ -4,3 +4,4 @@
 - I learned basic types: string, number, boolean.
 - I practiced typed functions, arrays, and objects.
 - TypeScript catches type mistakes before runtime.
+- Learnt the JS programming part of docs.
