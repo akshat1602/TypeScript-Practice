@@ -126,3 +126,22 @@ const todo1 = new Todo(1, "Learn TypeScript", false);
 console.log(todo1.status());
 todo1.toggle();
 console.log(todo1.status());
+
+
+// Day 6: Classes in TypeScript
+
+// Class is a blueprint used to create objects.
+// Object is an instance of a class.
+// A class can contain properties and methods.
+// constructor is a special method used to initialize values.
+// this refers to the current object of the class.
+// Methods are functions defined inside a class.
+// public members can be accessed from outside the class.
+// private members can be accessed only inside the class.
+// readonly properties can be assigned only once.
+// extends is used to create a child class from a parent class.
+// super() is used to call the parent class constructor.
+// Class inheritance helps reuse code.
+// Shorthand constructor syntax reduces boilerplate.
+// Classes are useful for modeling real-world entities like users, products, accounts, and tasks.
+// Classes improve code organization and reusability.
