@@ -128,6 +128,29 @@
 
 ---
 
+## Day 7: Generics
+
+### What I learned
+- Learned generics in TypeScript.
+- Generics make code reusable while keeping type safety.
+- Generic types are written using angle brackets like `<T>`.
+- Practiced generic functions, generic interfaces, generic type aliases, and generic classes.
+- Learned that generics keep input and output types connected.
+- Learned multiple generic parameters like `<K, V>`.
+- Learned generic constraints using `extends`.
+- Generics are useful when the same logic should work with different data types.
+
+### Interview revision points
+- Generics allow writing reusable and type-safe code.
+- `<T>` is a generic type parameter.
+- Generic functions keep the return type linked to the input type.
+- Generic interfaces and classes can work with different data types.
+- Multiple generic parameters can be used, such as `<K, V>`.
+- Constraints like `T extends { length: number }` restrict allowed types.
+- Generics are better than `any` because they preserve type information.
+
+---
+
 ## Quick Overall Revision
 
 ### Core concepts covered
@@ -141,6 +164,7 @@
 - Interfaces
 - Narrowing
 - Classes
+- Generics
 
 ### Most important interview concepts so far
 - TypeScript vs JavaScript
@@ -152,3 +176,4 @@
 - Class basics
 - Access modifiers
 - Inheritance
+- Generics
