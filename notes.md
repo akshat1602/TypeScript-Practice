@@ -183,6 +183,36 @@
 
 ---
 
+## Day 9: Literal Types, Enums, and as const
+
+### What I learned
+- Learned literal types in TypeScript.
+- Literal types allow exact fixed values instead of broad types.
+- Practiced string, number, and boolean literal types.
+- Learned unions of literal types like `"success" | "error" | "loading"`.
+- Learned enums as named sets of constants.
+- Practiced numeric enums and string enums.
+- Learned that string enums are usually more readable in real projects.
+- Used enums inside functions for controlled logic.
+- Learned `as const` to make values more specific and readonly.
+- Understood how `as const` helps preserve exact literal values.
+- Learned that literal types and enums are useful for status values, roles, themes, and configuration.
+
+### Interview revision points
+- Literal types restrict a value to exact allowed values.
+- String literal unions are often used instead of broad `string`.
+- Number literal types can restrict numeric values to fixed options.
+- Boolean literal types can represent exact `true` or `false`.
+- Enums are named collections of constant values.
+- Numeric enums auto-increment by default.
+- String enums are more readable and common in application code.
+- Enums help avoid magic strings in code.
+- `as const` makes object and array values readonly and preserves exact literal values.
+- `as const` is useful when deriving types from objects.
+- Literal unions are often preferred for simple fixed values.
+
+---
+
 ## Quick Overall Revision
 
 ### Core concepts covered
@@ -198,6 +228,9 @@
 - Classes
 - Generics
 - Utility types
+- Literal types
+- Enums
+- `as const`
 
 ### Most important interview concepts so far
 - TypeScript vs JavaScript
@@ -211,3 +244,6 @@
 - Inheritance
 - Generics
 - Utility types
+- Literal types
+- Enums
+- `as const`
