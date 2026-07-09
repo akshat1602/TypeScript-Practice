@@ -151,6 +151,38 @@
 
 ---
 
+## Day 8: Utility Types
+
+### What I learned
+- Learned utility types in TypeScript.
+- Utility types help transform existing types into new useful forms.
+- Practiced `Partial`, `Required`, `Readonly`, `Pick`, `Omit`, `Record`, `Exclude`, `ReturnType`, and `Parameters`.
+- `Partial<T>` makes all properties optional.
+- `Required<T>` makes all properties required.
+- `Readonly<T>` makes all properties read-only.
+- `Pick<T, K>` selects only specific properties from a type.
+- `Omit<T, K>` removes specific properties from a type.
+- `Record<K, T>` creates an object type with fixed key and value types.
+- `Exclude<T, U>` removes types from a union.
+- `ReturnType<T>` gets the return type of a function.
+- `Parameters<T>` gets the parameter types of a function as a tuple.
+- Utility types reduce repetition and make code more reusable.
+
+### Interview revision points
+- Utility types are built-in TypeScript helpers for transforming types.
+- `Partial<T>` makes all object properties optional.
+- `Required<T>` makes all object properties mandatory.
+- `Readonly<T>` prevents modification of properties.
+- `Pick<T, K>` extracts selected keys from a type.
+- `Omit<T, K>` removes selected keys from a type.
+- `Record<K, T>` is useful for key-value object structures.
+- `Exclude<T, U>` removes members from a union type.
+- `ReturnType<T>` gets a function’s return type.
+- `Parameters<T>` gets a function’s parameter types.
+- Utility types are very useful in APIs, forms, React props, and data transformations.
+
+---
+
 ## Quick Overall Revision
 
 ### Core concepts covered
@@ -165,6 +197,7 @@
 - Narrowing
 - Classes
 - Generics
+- Utility types
 
 ### Most important interview concepts so far
 - TypeScript vs JavaScript
@@ -177,3 +210,4 @@
 - Access modifiers
 - Inheritance
 - Generics
+- Utility types
