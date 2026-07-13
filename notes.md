@@ -213,6 +213,28 @@
 
 ---
 
+## Day 10: Mixed Revision
+
+### What I learned
+- Revised multiple TypeScript concepts together in one file.
+- Practiced interfaces, functions, unions, narrowing, classes, generics, utility types, enums, and literal types.
+- Understood how TypeScript concepts are combined in real code instead of used separately.
+- Revisited `Pick` and `Readonly` as practical utility types.
+- Used a generic API response type with a class-based object.
+- Strengthened understanding of typed return values and reusable structures.
+- Mixed revision improved confidence in syntax and concept recall.
+
+### Interview revision points
+- Real TypeScript code often combines multiple concepts together.
+- Interfaces define structure, while classes can add behavior.
+- Generic types help keep code reusable and type-safe.
+- Utility types reduce duplication in object type transformations.
+- Enums and literal unions help model restricted sets of values.
+- Narrowing is important when handling union types safely.
+- Mixed practice is useful for checking true understanding of TypeScript concepts.
+
+---
+
 ## Quick Overall Revision
 
 ### Core concepts covered
